@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    margin: 0 auto;
+    padding: 0%;
+
+    scroll-behavior: smooth;
+
+}
+
+header {
+    display: flex;
+    height: 300px;
+    /* background-color: rgb(248, 241, 226); */
+    background: linear-gradient(to right, rgb(255, 255, 255), #fff);
+    min-width: 500px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+ /* box-shadow: 0 0 20px black,
+            0 0 50px rgb(94, 145, 37);  */
+
+}
+
+h1 {
+
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.company {
+    align-items: center;
+    margin: auto;
+    font-weight: 900;
+}
+
+.logo {
+    display: block;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    /* background: linear-gradient(to right, rgb(255, 255, 255), #fff, rgb(255, 255, 255)); */
+    /* background: linear-gradient(to bottom, red,  white); */
+}
+
+.lineLeft {
+   margin-top:20px;
+    content: '';
+    width: 20%;
+    height: 2px;
+    margin-right: 0px;
+    margin-left: 20%;
+    background-color: rgb(219, 218, 218) ;
+}
+
+.lineRight {
+    margin-top:20px;
+    content: '';
+    width: 20%;
+    height: 2px;
+    margin-right: 20%;
+    background-color: rgb(219, 218, 218) ;
+}
+.menu {
+    display: inline-flex;
+    height: 80px;
+    margin: 0px;
+    width: 500px;
+    /* background-color: rgb(255, 255, 255); */
+    color: #000;
+ 
+ 
+}
+
+.menu a {
+   
+    width: 125px;
+    height: 40px;
+    transition: 0.3s;
+    margin:  auto;
+  
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(219, 218, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+        
+}
+
+.caption {
+    padding-top: 10px;
+
+}
+.menu a:visited {
+    color: #000;
+}
+
+.menu a:hover {
+
+    background-color: rgb(126, 255, 244);
+    color: black;
+    vertical-align: middle;
+    width: 200px;
+    letter-spacing: 0.1em;
+    height: 60px;
+ 
+
+
+
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.4em;
+}
+
+.content {
+    padding-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+
+
+    text-indent: 40px;
+}
+
+.pic {
+    height: 400px;
+    width: auto;
+    float: right;
+    margin: 10px;
+
+}
+
+.content2 {
+    height: 500px;
+    /* background-color: rgb(180, 245, 183); */
+    padding-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+
+
+    text-indent: 40px;
+}
+
+.pic2 {
+    height: 400px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    margin: 0;
+    height: 150px;
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(100, 98, 96);
+
+}
+
+.footer {
+    display: flex;
+    color: #fff;
+    width: 500px;
+}
+
+footer table {
+    border-spacing: 10px;
+    display: block;
+    margin-top: 40px;
+}
+
+footer table tr {
+
+    margin-right: 20px;
+
+
+}
+
